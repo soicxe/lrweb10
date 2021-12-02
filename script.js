@@ -45,7 +45,7 @@ function randNum() {
 	if (countGame == 0) document.getElementById("newGame").textContent = "Try Again";
 	if (countGame > 3) endGame();
 	randCard();
-	document.getElementById("score").textContent = "Score " + countUser + "/3";
+	document.getElementById("score").textContent = "Score " + countUser + "/9";
 	document.getElementById("attempts").textContent = "Number of attempts: " + ++countGame + "/3";
 	if (countGame == 3) {
 		//alert("The end of game. To see the result press 'OK'");
